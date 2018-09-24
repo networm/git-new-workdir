@@ -10,4 +10,5 @@ Change refs to lfs in symbol links to improve usability for both work directorie
 
 ## Changes
 
-Only one change: `refs` to `lfs` in line 82.
+1. `refs` to `lfs` in line 82.
+2. Copy `refs` from source git repository to new repository.
