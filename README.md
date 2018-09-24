@@ -2,6 +2,12 @@
 
 Change refs to lfs in symbol links to improve usability for both work directories isolation and Git LFS support.
 
+## Usage
+
+```
+./git-new-workdir <repository> <new_workdir> [<branch>]
+```
+
 ## Introduction
 
 `refs` directory contains all branch status. If shared same one, different repository will be interference each other after fetch or pull. The local branch will be updated with remote tracking branch.
