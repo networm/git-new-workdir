@@ -91,6 +91,8 @@ do
 	ln -s "$git_dir/$x" "$new_workdir/.git/$x" || failed
 done
 
+cp -r "$git_dir/refs" "$new_workdir/.git/refs" || failed
+
 # commands below this are run in the context of the new workdir
 cd "$new_workdir" || failed
 
